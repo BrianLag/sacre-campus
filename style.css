@@ -2,7 +2,7 @@
 .flex-collapse{
    display: flex;
    flex-direction: column;
-   justify-content: space-between;
+   align-items: center;
 
 }
 
@@ -11,7 +11,7 @@
     color: #FFFFFF;
     cursor: pointer;
     padding: 18px;
-    width: 90%;
+    width: auto;
     border: none;
     outline: none;
     font-size: 18px;
@@ -23,6 +23,8 @@
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
   .active, .collapsible:hover {
     background-color: #EF5C59;
+    display: flex;
+    align-items: center;
   }
   
   /* Style the collapsible content. Note: hidden by default */
@@ -31,6 +33,7 @@
     display: none;
     overflow: hidden;
     background-color: #f1f1f1;
+    align-items: center;
   }
 /*---------------------------Footer------------------------------*/
 
