@@ -18,14 +18,27 @@
 
 }
 .header-menu ul{
+    background-color: #E97B78;
+    display: flex;
+    justify-content: space-around;
+    
     margin: 0px;
     padding: 0;
-
 }
 .header-menu li{
     display: inline-block;
+    list-style-type: none;
+    align-items: center;
+    justify-items: center;   
+}
+.header h1{
     display: flex;
-    justify-content: space-around;
-    background-color: #E97B78;
-    
+    width: 50%;
+    justify-content: center;
+    margin: 0px;
+}
+.header-logo{
+    display: flex;
+    width: auto;
+    justify-self: start;
 }
