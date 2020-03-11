@@ -21,24 +21,30 @@
     background-color: #E97B78;
     display: flex;
     justify-content: space-around;
-    
+    align-items: center;
     margin: 0px;
-    padding: 0;
+    padding: 0px;
 }
 .header-menu li{
     display: inline-block;
     list-style-type: none;
-    align-items: center;
-    justify-items: center;   
-}
+    align-self: center;
+    }    
 .header h1{
     display: flex;
     width: 50%;
     justify-content: center;
     margin: 0px;
+    color: #E97B78;
+    
+}
+.header-title { 
+    display: flex;
+    justify-content: flex-end;
+    
 }
 .header-logo{
     display: flex;
     width: auto;
-    justify-self: start;
 }
+
