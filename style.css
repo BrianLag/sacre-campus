@@ -34,10 +34,27 @@ header {
 /*Footer*/
 
 .body-footer{
-    background-color: gray;
+    background-color: #ec6d6a;
     color: white;
     display: flex;
     justify-content: space-around;
     align-items: baseline;
+    margin-top: 3px;
+    font-size: 12px;
+}
+
+.footer-droit{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-unput{
+  border-radius: 50px;
+  text-align: center;
+}
+
+.footer-par{
+  font-style: italic;
 }
 
