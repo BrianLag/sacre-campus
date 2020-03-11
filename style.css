@@ -73,39 +73,54 @@
 
 
 /*-----------------Partie_Header-----------------*/
-.heder{
-    margin: 0px;
-    padding: 0;
+
+
+.header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  justify-content: baseline;
 
 }
+.header-title{
+  display: flex;
+  justify-content: end;
+  
+}
+
+
+.bar-title{
+    width: auto;
+    color: #E97B78;
+    margin: 0px;
+
+}
+.barparentese {
+    color: #E97B78;
+    margin-left: 10px;
+    font-size: 12px;
+    
+
+} 
 .header-menu ul{
     background-color: #E97B78;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    
     margin: 0px;
     padding: 0px;
+    border-radius: 4px;
+    height: 40px;
+    
 }
 .header-menu li{
     display: inline-block;
     list-style-type: none;
     align-self: center;
-    }    
-.header h1{
-    display: flex;
-    width: 50%;
-    justify-content: center;
-    margin: 0px;
-    color: #E97B78;
     
 }
-.header-title { 
-    display: flex;
-    justify-content: flex-end;
-    
-}
-.header-logo{
-    display: flex;
-    width: auto;
-}
+
+
+
 
