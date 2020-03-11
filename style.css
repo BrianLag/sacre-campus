@@ -1,11 +1,31 @@
-header {
-    background-color: gray;
-    margin-bottom: 10px;
-    padding: 0;
-}
+           
 
-div {
-    margin-bottom: 10px;
-    padding: 20px;
-    background-color: gray;
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------Partie_Header-----------------*/
+.heder{
+    margin: 0px;
+    padding: 0;
+
+}
+.header-menu ul{
+    margin: 0px;
+    padding: 0;
+
+}
+.header-menu li{
+    display: inline-block;
+    display: flex;
+    justify-content: space-around;
+    background-color: #E97B78;
+    
 }
