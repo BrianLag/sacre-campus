@@ -1,4 +1,7 @@
 
+body{
+  margin: 0px;
+}
 .main-collapse{
   display: flex;
   align-items: center;
