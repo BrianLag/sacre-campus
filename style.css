@@ -1,4 +1,19 @@
 
+.title-content{
+  box-shadow: 0px 1px 3px gray;
+  margin: 5%;
+  border-radius: 5px;
+}
+.title-principal{
+  color: #DC524F;
+  text-align: center;
+}
+.title-par{
+  color: #E97B78;
+  font-style: italic;
+  text-align: center;
+}
+
 body{
   margin: 0px;
 }
