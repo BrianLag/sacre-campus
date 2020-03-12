@@ -1,78 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sacré Campus</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/ab47111dd9.js" crossorigin="anonymous"></script>
-    </head>
+</head>
+
 <body>
-<!-------------------------------------------------------------->    
-<!-----------------HEADER--------------------------------------->  
-<header class="header">
-    <img src="images/logo-wcs 2.svg" class="header-logo" alt="logo de la wild code School">
-    <nav class="header-title">    
-        <p class="bar-title">Sacré Campus</p>
-        <p class="barparentese">(reims)</p>
-    </nav> 
-</header>
-<!--------------------------------------------------------------------->
-<!------------------------Menu navigant-------------------------------->
-<div>
-    <nav class="header-menu">
-        <ul>
-            <li><a href="#Bar" title="Bar"><img src="images/LOGO BARS.svg" alt="logo Bars"></a></li>
-            <li><img src="images/LOGO RESTAURANTS.svg" alt="logo Restaurants"><a href="" title="Restaurant"></a></li>
-            <li><img src="images/LOGO UTILITAIRES.svg" alt="logo Utilitaire"><a href="" title="Utilitaire"></a></li>
-            <li><img src="images/LOGO TRANSPORTS.svg" alt="logo Transport"><a href="" title="Transport"></a></li>
-            <li><img src="images/LOGO EVENEMENTS.svg" alt="logo evenement"><a href="" title="Evenement"></a></li>
-        </ul>
-    </nav>
-</div>
+    <!-------------------------------------------------------------->
+    <!-----------------HEADER--------------------------------------->
+    <header class="header">
+        <img src="images/logo-wcs 2.svg" class="header-logo" alt="logo de la wild code School">
+        <nav class="header-title">
+            <p class="bar-title">Sacré Campus</p>
+            <p class="barparentese">(reims)</p>
+        </nav>
+    </header>
+    <!--------------------------------------------------------------------->
+    <!------------------------Menu navigant-------------------------------->
+    <div>
+        <nav class="header-menu">
+            <ul>
+                <li><a href="#Bar" title="Bar"><img src="images/LOGO BARS.svg" alt="logo Bars"></a></li>
+                <li><img src="images/LOGO RESTAURANTS.svg" alt="logo Restaurants"><a href="" title="Restaurant"></a>
+                </li>
+                <li><img src="images/LOGO UTILITAIRES.svg" alt="logo Utilitaire"><a href="" title="Utilitaire"></a></li>
+                <li><img src="images/LOGO TRANSPORTS.svg" alt="logo Transport"><a href="" title="Transport"></a></li>
+                <li><img src="images/LOGO EVENEMENTS.svg" alt="logo evenement"><a href="" title="Evenement"></a></li>
+            </ul>
+        </nav>
+    </div>
 
-<!-------------------------------------------------------------->
-<!------------------MAIN---------------------------------------->
-   
-<!--Essai collapse avec modale V1-->
-<section class="flex-collapse">
+    <!-------------------------------------------------------------->
+    <!------------------MAIN---------------------------------------->
 
-    <div class="main-collapse">
-    <button type="button" class="collapsible"><p id="Bar">Bars à Proximité</p></button>
-        <div class="content">
+    <!--Essai collapse avec modale V1-->
+    <section class="flex-collapse">
+
+        <div class="main-collapse">
+            <button type="button" class="collapsible">
+                <p id="Bar">Bars à Proximité</p>
+            </button>
+            <div class="content">
 
 
-        <div class="modal-edito">
-            <input type="checkbox" id="toggle">
-            <label for="toggle">L'Édito</label>
-    
-    
-            <dialog>
+                <div class="modal-edito">
+                    <input type="checkbox" id="toggle">
+                    <label for="toggle">L'Édito</label>
+
+
+                    <dialog>
+                        <div class="modal-container">
+                            <div class="modal-container-topbar">
+                                <div class="modal-icon">
+                                    <img src="images/LOGO RESTAURANTS.svg" alt="logo restaurants">
+                                </div>
+                                <div class="modal-close">
+                                    <label for="toggle">FERMER</label>
+                                </div>
+                            </div>
+                            <div class="modal-h1">
+                                <h1>L'Édito Reims</h1>
+                            </div>
+                            <div class="modal-phone">
+                                <i class="fas fa-phone-alt"></i>
+                                <span>03 26 40 33 06</span>
+                            </div>
+                            <div class="modal-address">
+                                <a href="#">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>Place Drouet D'Erlon</span>
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                            <div class="modal-maps">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d547.4324540589927!2d4.026191292367934!3d49.256644582245364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e975aaefff3365%3A0xfa2aa26e59a51542!2sEdito%20Reims!5e0!3m2!1sfr!2sfr!4v1583939663032!5m2!1sfr!2sfr"
+                                    width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""
+                                    aria-hidden="false" tabindex="0"></iframe>
+                            </div>
+                            <div class="modal-socials">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </dialog>
+                </div>
+
+
+                <p> Wild Code School Quartier Général</p>
+                <p> Gare de reims</p>
+                <p> Gare de reims</p>
+                <p> Gare de reims</p>
+                <p> Gare de reims</p>
+                <p> Gare de reims</p>
+                <p> Gare de reims</p>
+
+            </div>
+        </div>
+        <!------------Fin Section modale à revoir---------------------------->
+
+
+        <!-------SECTION Restaurants--------------------------------->
+        <div class="main-collapse">
+            <button type="button" class="collapsible main-collapse">Restauration à Proximité</button>
+            <div class="content">
+
+                <!---------Collapse Resteaurants 1------------------------------->
+                <div class="main-collapse">
+                    <button type="button" class="collapsible">Boulangerie de la Gare</button>
+                    <div class="content">
+
+                        <div class="modal-container">
+                            <div class="modal-icon">
+                                <img src="images/LOGO RESTAURANTS.svg" alt="logo restaurants">
+                            </div>
+                            <p>
+                                Boulangerie de la Gare
+                                <br>
+                                03 26 47 75 49
+                                <br>
+                                43 rue de Courcelle
+                            </p>
+                            <div class="modal-maps">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d632.4550173599575!2d4.020658463705813!3d49.258404261511224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e97501148a3a03%3A0xdd9d6845a2e542ab!2sboulangerie%20de%20la%20gare!5e0!3m2!1sen!2sfr!4v1584028288540!5m2!1sen!2sfr"
+                                    width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""
+                                    aria-hidden="false" tabindex="0"></iframe>
+                            </div>
+                            <div class="modal-socials">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+        <!---------Collapse Resteaurants 2------------------------------->
+        <div class="main-collapse">
+            <button type="button" class="collapsible">Le Fast</button>
+            <div class="content">
+
                 <div class="modal-container">
-                    <div class="modal-container-topbar">
-                        <div class="modal-icon">
-                            <img src="images/LOGO RESTAURANTS.svg" alt="logo restaurants">
-                        </div>
-                        <div class="modal-close">
-                            <label for="toggle">FERMER</label>
-                        </div>
+                    <div class="modal-icon">
+                        <img src="images/LOGO RESTAURANTS.svg" alt="logo restaurants">
                     </div>
-                    <div class="modal-h1">
-                        <h1>L'Édito Reims</h1>
-                    </div>
-                    <div class="modal-phone">
-                        <i class="fas fa-phone-alt"></i>
-                        <span>03 26 40 33 06</span>
-                    </div>
-                    <div class="modal-address">
-                        <a href="#">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <span>Place Drouet D'Erlon</span>
-                        <i class="fas fa-external-link-alt"></i>
-                        </a>
-                    </div>
+                    <p>
+                        le Fast
+                        <br>
+                        03 26 02 02 94
+                        <br>
+                        49 Rue de Courcelles
+                    </p>
                     <div class="modal-maps">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d547.4324540589927!2d4.026191292367934!3d49.256644582245364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e975aaefff3365%3A0xfa2aa26e59a51542!2sEdito%20Reims!5e0!3m2!1sfr!2sfr!4v1583939663032!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d632.4550173599575!2d4.020658463705813!3d49.258404261511224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e975013dc20a4b%3A0xcfb5481bc24be9d0!2sLe%20Fast!5e0!3m2!1sen!2sfr!4v1584028559735!5m2!1sen!2sfr"
+                            width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""
+                            aria-hidden="false" tabindex="0"></iframe>
                     </div>
                     <div class="modal-socials">
                         <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -80,188 +170,206 @@
                         <a href="#"><i class="fab fa-twitter"></i></a>
                     </div>
                 </div>
-            </dialog>
+            </div>
         </div>
-   
-   
-    <p> Wild Code School Quartier Général</p>
-    <p> Gare de reims</p>
-    <p> Gare de reims</p>
-    <p> Gare de reims</p>
-    <p> Gare de reims</p>
-    <p> Gare de reims</p>
-    <p> Gare de reims</p>
-
-    </div>
-</div>    
-<!------------Fin Section modale à revoir---------------------------->  
-
-
-<!-------SECTION Restaurants--------------------------------->  
-<div class="main-collapse">
-    <button type="button" class="collapsible main-collapse">Restaurants à Proximité</button>
-    <div class="content">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
-eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
-minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
-ex ea commodo consequat.</p>
-    </div>
-</div>    
-<!---------------------------------------->  
-
-
-
-<!--------Section utilitaire-------------------------------->  
-<div class="main-collapse">
-    <button type="button" class="collapsible main-collapse">Utilitaires à Proximité</button>
-    <div class="content">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
-eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
-minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
-ex ea commodo consequat.</p>
-    </div>
-</div>  
-<!---------------------------------------->  
-
-
-<!-----------Section Transports-----------------------------> 
-<!--------Collapse menu-------------------------------->  
-<div class="main-collapse">
-    <button type="button" class="collapsible">Transports</button>
-    <div class="content">
-  
-        <!---------Collapse Lieu------------------------------->  
-        <div class="main-collapse">
-            <button type="button" class="collapsible">Essaicollapse3</button>   
-            <div class="content">
-                    
-                
-                <div class="modal-container">
-                        <div class="modal-icon">
-                            <img src="images/LOGO RESTAURANTS.svg" alt="logo restaurants">
-                        </div>
-                        <p>Gare de reims <br>03 26 40 33 06<br> Wild code School</p>
-                        <div class="modal-maps">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d547.4324540589927!2d4.026191292367934!3d49.256644582245364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e975aaefff3365%3A0xfa2aa26e59a51542!2sEdito%20Reims!5e0!3m2!1sfr!2sfr!4v1583939663032!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                        </div>
-                        <div class="modal-socials">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                        </div>
-                </div>
-            </div>    
-        </div>
-       
-       
-        <!----------Collapse Lieu n°2------------------------------>  
-        <div class="main-collapse">
-            <button type="button" class="collapsible">Essaicollapse3</button>
-            
-            <div class="content">
-                    
-                
-                <div class="modal-container">
-                        <div class="modal-icon">
-                            <img src="images/LOGO RESTAURANTS.svg" alt="logo restaurants">
-                        </div>
-                        <div class="modal-h1">
-                            <h1>Gare de Reims</h1>
-                        </div>
-                        <div class="modal-phone">
-                            <i class="fas fa-phone-alt"></i>
-                            <span>03 26 40 33 06</span>
-                        </div>
-                        <div class="modal-address">
-                            <a href="#">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <span>Place Drouet D'Erlon</span>
-                            <i class="fas fa-external-link-alt"></i>
-                            </a>
-                        </div>
-                        <div class="modal-maps">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d547.4324540589927!2d4.026191292367934!3d49.256644582245364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e975aaefff3365%3A0xfa2aa26e59a51542!2sEdito%20Reims!5e0!3m2!1sfr!2sfr!4v1583939663032!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                        </div>
-                        <div class="modal-socials">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                        </div>
-                </div>
-            </div>    
-        </div>
-        <!-----------Collapse Lieu n°3----------------------------->  
-        <div class="main-collapse">
-            <button type="button" class="collapsible">Essaicollapse3</button>
-            <!---deuxième contenu de Collapse-->    
-            <div class="content">
-                    
-                
-                <div class="modal-container">
-                        <div class="modal-icon">
-                            <img src="images/LOGO RESTAURANTS.svg" alt="logo restaurants">
-                        </div>
-                        <div class="modal-h1">
-                            <h1>Gare de Reims</h1>
-                        </div>
-                        <div class="modal-phone">
-                            <i class="fas fa-phone-alt"></i>
-                            <span>03 26 40 33 06</span>
-                        </div>
-                        <div class="modal-address">
-                            <a href="#">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <span>Place Drouet D'Erlon</span>
-                            <i class="fas fa-external-link-alt"></i>
-                            </a>
-                        </div>
-                        <div class="modal-maps">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d547.4324540589927!2d4.026191292367934!3d49.256644582245364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e975aaefff3365%3A0xfa2aa26e59a51542!2sEdito%20Reims!5e0!3m2!1sfr!2sfr!4v1583939663032!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                        </div>
-                        <div class="modal-socials">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                        </div>
-                </div>
-                     <!---fin essai-->
-                
-            </div>    
-        </div>
-    </div>
-</div>    
-
-<!----------COLLAPSE EVENEMENT------------------------------>  
-<div class="main-collapse">
-    <button type="button" class="collapsible">Evénement</button>
-    <div class="content">
-        
-    </div>
-</div>
-</section>
-
-
-<!-------------------------------------------------------------->
-<!--------------------SCRIPT JS------------------------------------------>
-
-
-<script>
-    var coll = document.getElementsByClassName("collapsible");
-    var i;
+             <!---------Collapse Resteaurants 3------------------------------->
+             <div class="main-collapse">
+                <button type="button" class="collapsible">Bar Brasserie de l'avenir </button>
+                <div class="content">
     
-    for (i = 0; i < coll.length; i++) {
-      coll[i].addEventListener("click", function() {
-        this.classList.toggle("active");
-        var content = this.nextElementSibling;
-        if (content.style.display === "block") {
-          content.style.display = "none";
-        } else {
-          content.style.display = "block";
+                    <div class="modal-container">
+                        <div class="modal-icon">
+                            <img src="images/LOGO RESTAURANTS.svg" alt="logo restaurants">
+                        </div>
+                        <p>
+                            Bar Brasserie de l'avenir
+                            <br>
+                            09 83 07 30 91
+                            <br>
+                            31 Rue de Courcelles
+                        </p>
+                        <div class="modal-maps">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d531.8318871170211!2d4.021089079807595!3d49.25815089337848!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e975011a4de2d5%3A0xb24539f8b79b4e4e!2sBar%20Brasserie%20de%20l&#39;avenir!5e0!3m2!1sen!2sfr!4v1584029169475!5m2!1sen!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        </div>
+                        <div class="modal-socials">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+        </div>
+
+
+        </div>
+        </div>
+        <!---------------------------------------->
+
+
+
+        <!--------Section utilitaire-------------------------------->
+        <div class="main-collapse">
+            <button type="button" class="collapsible main-collapse">Utilitaires à Proximité</button>
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                    minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                    ex ea commodo consequat.</p>
+            </div>
+        </div>
+        <!---------------------------------------->
+
+
+        <!-----------Section Transports----------------------------->
+        <!--------Collapse menu-------------------------------->
+        <div class="main-collapse">
+            <button type="button" class="collapsible">Transports</button>
+            <div class="content">
+
+                <!---------Collapse Lieu------------------------------->
+                <div class="main-collapse">
+                    <button type="button" class="collapsible">Essaicollapse3</button>
+                    <div class="content">
+
+
+                        <div class="modal-container">
+                            <div class="modal-icon">
+                                <img src="images/LOGO RESTAURANTS.svg" alt="logo restaurants">
+                            </div>
+                            <p>Gare de reims <br>03 26 40 33 06<br> Wild code School</p>
+                            <div class="modal-maps">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d547.4324540589927!2d4.026191292367934!3d49.256644582245364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e975aaefff3365%3A0xfa2aa26e59a51542!2sEdito%20Reims!5e0!3m2!1sfr!2sfr!4v1583939663032!5m2!1sfr!2sfr"
+                                    width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""
+                                    aria-hidden="false" tabindex="0"></iframe>
+                            </div>
+                            <div class="modal-socials">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!----------Collapse Lieu n°2------------------------------>
+                <div class="main-collapse">
+                    <button type="button" class="collapsible">Essaicollapse3</button>
+
+                    <div class="content">
+
+
+                        <div class="modal-container">
+                            <div class="modal-icon">
+                                <img src="images/LOGO RESTAURANTS.svg" alt="logo restaurants">
+                            </div>
+                            <div class="modal-h1">
+                                <h1>Gare de Reims</h1>
+                            </div>
+                            <div class="modal-phone">
+                                <i class="fas fa-phone-alt"></i>
+                                <span>03 26 40 33 06</span>
+                            </div>
+                            <div class="modal-address">
+                                <a href="#">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>Place Drouet D'Erlon</span>
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                            <div class="modal-maps">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d547.4324540589927!2d4.026191292367934!3d49.256644582245364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e975aaefff3365%3A0xfa2aa26e59a51542!2sEdito%20Reims!5e0!3m2!1sfr!2sfr!4v1583939663032!5m2!1sfr!2sfr"
+                                    width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""
+                                    aria-hidden="false" tabindex="0"></iframe>
+                            </div>
+                            <div class="modal-socials">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-----------Collapse Lieu n°3----------------------------->
+                <div class="main-collapse">
+                    <button type="button" class="collapsible">Essaicollapse3</button>
+                    <!---deuxième contenu de Collapse-->
+                    <div class="content">
+
+
+                        <div class="modal-container">
+                            <div class="modal-icon">
+                                <img src="images/LOGO RESTAURANTS.svg" alt="logo restaurants">
+                            </div>
+                            <div class="modal-h1">
+                                <h1>Gare de Reims</h1>
+                            </div>
+                            <div class="modal-phone">
+                                <i class="fas fa-phone-alt"></i>
+                                <span>03 26 40 33 06</span>
+                            </div>
+                            <div class="modal-address">
+                                <a href="#">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>Place Drouet D'Erlon</span>
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                            <div class="modal-maps">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d547.4324540589927!2d4.026191292367934!3d49.256644582245364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e975aaefff3365%3A0xfa2aa26e59a51542!2sEdito%20Reims!5e0!3m2!1sfr!2sfr!4v1583939663032!5m2!1sfr!2sfr"
+                                    width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""
+                                    aria-hidden="false" tabindex="0"></iframe>
+                            </div>
+                            <div class="modal-socials">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                        <!---fin essai-->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!----------COLLAPSE EVENEMENT------------------------------>
+        <div class="main-collapse">
+            <button type="button" class="collapsible">Evénement</button>
+            <div class="content">
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-------------------------------------------------------------->
+    <!--------------------SCRIPT JS------------------------------------------>
+
+
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                }
+            });
         }
-      });
-    }
     </script>
-<!---------------Fin Script------------------------->  
+    <!---------------Fin Script------------------------->
 
 
 
@@ -288,4 +396,5 @@ ex ea commodo consequat.</p>
         </div>
     </footer>
 </body>
+
 </html>
