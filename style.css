@@ -1,7 +1,12 @@
-
+/*---------------------body---------------------*/
 body{
   margin: 0px;
+  display: flex;
+  flex-direction: column;
 }
+/*----------------------fin body-----------------------*/
+
+
 .main-collapse{
   display: flex;
   align-items: center;
@@ -41,39 +46,39 @@ body{
     text-align: center;
     border-radius: 5px;
     width: 90%;
-
   }
+
+
+
 /*---------------------------Footer------------------------------*/
-
-
 .body-footer{
     background-color: #ec6d6a;
     color: white;
     display: flex;
     justify-content: space-around;
-    align-items: baseline;
-    margin-top: 3px;
     font-size: 12px;
+    padding: 1rem;
+    position: relative;
+    z-index: 1;
 }
 
 .footer-droit{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  margin-right: 4%;
-  margin-left: 10%;
+  text-align: center;
 }
 
 .footer-unput{
   border-radius: 50px;
   text-align: center;
   color: #ec6d6a;
+  margin-bottom: 1rem;
 }
 
 .footer-par{
+  margin: 0;
+  margin-bottom: 1rem;
+}
+.italic {
   font-style: italic;
-  margin-top: 10%;
 }
 .footer-lien{
   font-weight: bold;
@@ -85,9 +90,11 @@ body{
 }
 
 .footer-list{
+  margin: 0;
+  padding-left: 0;
   list-style-type: none;
 }
-
+/*-------------------------------fin footer-----------------------------*/
            
 
 
@@ -102,15 +109,15 @@ body{
 
 
 /*-----------------Partie_Header-----------------*/
-
-
 .header{
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
   justify-content: baseline;
-
+  order: -2;
+  position: relative;
+  z-index: 1;
 }
 .header-title{
   display: flex;
@@ -130,18 +137,18 @@ body{
     margin-left: 10px;
     font-size: 12px;
     
-
+/*-------------------------fin header--------------------*/
+/*------------------------debut bar nav-------------------*/
 } 
 .header-menu ul{
     background-color: #E97B78;
     display: flex;
     justify-content: space-around;
-    
     margin: 0px;
-    padding: 0px;
-    border-radius: 4px;
     height: 40px;
-    
+    box-shadow:0 0 10px 4px #888888;
+    padding: .5rem; 
+
 }
 .header-menu li{
     display: inline-block;
@@ -150,12 +157,28 @@ body{
     
 }
 
+.header-menu {
+    position: sticky;
+    bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  .header-menu {
+    order: -1;
+    top: 0;
+  }
+}
+/*-----------------------fin bar nav---------------------*/
 
 
 
-/* MODAL */
 
-*{
+
+
+
+
+/*--------------------- MODAL--------------------- */
+* {
   font-family: 'Roboto', sans-serif;
 }
 
@@ -238,3 +261,4 @@ dialog{
   color: white;
   text-decoration: none;
 }
+/*--------------------fin modale--------------------------------*/
