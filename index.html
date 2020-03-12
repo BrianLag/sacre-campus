@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sacré Campus</title>
-    <link rel="stylesheet" href="style.css">  
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ab47111dd9.js" crossorigin="anonymous"></script>  
     </head>
 <body>
 <!-------------------------------------------------------------->    
@@ -13,35 +14,21 @@
     <img src="images/logo-wcs 2.svg" class="header-logo" alt="logo de la wild code School">
     <nav class="header-title">    
         <p class="bar-title">Sacré Campus</p>
-        <p class="barparentese">(reims)</p>
+        <p class="barparentese">(Reims)</p>
     </nav>
 </header>
-<!--------------------------------------------------------------------->
-<!------------------------Menu navigant-------------------------------->
-<div>
-    <nav class="header-menu">
-        <ul>
-            <li><img src="images/LOGO BARS.svg" alt="logo Bars"><a href="" title="Bar"></a></li>
-            <li><img src="images/LOGO RESTAURANTS.svg" alt="logo Restaurants"><a href="" title="Restaurant"></a></li>
-            <li><img src="images/LOGO UTILITAIRES.svg" alt="logo Utilitaire"><a href="" title="Utilitaire"></a></li>
-            <li><img src="images/LOGO TRANSPORTS.svg" alt="logo Transport"><a href="" title="Transport"></a></li>
-            <li><img src="images/LOGO EVENEMENTS.svg" alt="logo evenement"><a href="" title="Evenement"></a></li>
-        </ul>
-    </nav>
-</div>
-
-
-
-
-
-
 <!-------------------------------------------------------------->
 <!------------------MAIN---------------------------------------->
    
 <!--Essai collapse-->
-<section class="flex-collapse"><div class="main-collapse">
+<section class="flex-collapse">
+
+    <div id="Bars" class="main-collapse">
     <button type="button" class="collapsible">Bars à Proximité</button>
-    <div class="content">
+    <div  class="content">
+
+
+
         <div class="modal-edito">
             <input type="checkbox" id="toggle">
             <label for="toggle">L'Édito</label>
@@ -76,6 +63,9 @@
                     </div>
                 </div>
             </dialog>
+
+
+
         </div>
     <p> Wild Code School Quartier Général</p>
     <p> Gare de reims</p>
@@ -89,7 +79,31 @@
 </div>    
 <!---------------------------------------->  
 <div class="main-collapse">
-    <button type="button" class="collapsible main-collapse">Restaurants à Proximité</button>
+    <button  type="button" class="collapsible main-collapse">Restaurants à Proximité</button>
+    <div class="content">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
+minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+ex ea commodo consequat.</p>
+    </div>
+</div>   
+
+
+
+<div class="main-collapse">
+    <button  type="button" class="collapsible main-collapse">Utilitaires à Proximité</button>
+    <div class="content">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
+minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+ex ea commodo consequat.</p>
+    </div>
+</div> 
+
+
+
+<div class="main-collapse">
+    <button  type="button" class="collapsible">Transports</button>
     <div class="content">
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
@@ -97,26 +111,11 @@ minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
 ex ea commodo consequat.</p>
     </div>
 </div>    
+
+
+
 <div class="main-collapse">
-    <button type="button" class="collapsible main-collapse">Utilitaires à Proximité</button>
-    <div class="content">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
-eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
-minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
-ex ea commodo consequat.</p>
-    </div>
-</div>    
-<div class="main-collapse">
-    <button type="button" class="collapsible">Transports</button>
-    <div class="content">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
-eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
-minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
-ex ea commodo consequat.</p>
-    </div>
-</div>    
-<div class="main-collapse">
-    <button type="button" class="collapsible">Evénement</button>
+    <button  type="button" class="collapsible">Evénement</button>
     <div class="content">
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
@@ -124,6 +123,10 @@ minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
 ex ea commodo consequat.</p>
     </div>
 </div>
+
+
+
+
 </section>    
 <!-------------------------------------------------------------->
 <!--------------------SCRIPT JS------------------------------------------>
@@ -151,24 +154,35 @@ ex ea commodo consequat.</p>
 
 
 
+    <!--------------------------------------------------------------------->
+    <!------------------------Menu navigant-------------------------------->
+    <nav class="header-menu">
+        <ul>
+            <li><img src="images/LOGO BARS.svg" alt="logo Bars"><a href="#Bars" title="Bars"></a></li>
+            <li><img src="images/LOGO RESTAURANTS.svg" alt="logo Restaurants"><a href="#Restaurants" title="Restaurant"></a></li>
+            <li><img src="images/LOGO UTILITAIRES.svg" alt="logo Utilitaires"><a href="#Utilitaires" title="Utilitaire"></a></li>
+            <li><img src="images/LOGO TRANSPORTS.svg" alt="logo Transports"><a href="#Transports" title="Transport"></a></li>
+            <li><img src="images/LOGO EVENEMENTS.svg" alt="logo evenements"><a href="#Evenements" title="Evenement"></a></li>
+        </ul>
+    </nav>
     <!-------------------------------------------------------------->
     <!------------------FOOTER-------------------------------------->
     <footer class="body-footer">
         <div class="footer-gauche">
             <ul class="footer-list">
-                <li> <a class="footer-lien-menu" href="">Bars</a></li>
-                <li> <a class="footer-lien-menu" href="">Restaurants</a></li>
-                <li> <a class="footer-lien-menu" href="">Évènements</a></li>
-                <li> <a class="footer-lien-menu" href="">Transports</a></li>
-                <li> <a class="footer-lien-menu" href="">Utilitaires</a></li>
+                <li> <a class="footer-lien-menu" href="#Bars">Bars</a></li>
+                <li> <a class="footer-lien-menu" href="#Restaurants">Restaurants</a></li>
+                <li> <a class="footer-lien-menu" href="#Evenements">Évènements</a></li>
+                <li> <a class="footer-lien-menu" href="#Transports">Transports</a></li>
+                <li> <a class="footer-lien-menu" href="#Utilitaires">Utilitaires</a></li>
             </ul>
         </div>
         <div class="footer-droit">
             <!--Formulaire de NewsLetteer -->
             <input class="footer-unput" type="text" placeholder="Newsletter : your email">
-            <span class="footer-par">Sacré Campus by Wilders for Wilders</span>
+            <p class="footer-par italic">Sacré Campus by Wilders for Wilders</p>
             <!--Lien vers le campus de la Wild code School de Reims-->
-            <p><a class="footer-lien" href="https://www.wildcodeschool.com/fr-FR/campus/reims" target="_blank">Whil
+            <p class="footer-par"><a class="footer-lien" href="https://www.wildcodeschool.com/fr-FR/campus/reims" target="_blank">Wild
                     Code School - Campus Reims</a></p>
         </div>
     </footer>
