@@ -46,6 +46,7 @@ body{
     text-align: center;
     border-radius: 5px;
     width: 90%;
+/*-------------------FIN COLLAPSE-----------------------------*/
   }
 
 
@@ -197,25 +198,6 @@ body{
   }
 }
 
-dialog{
-  width: 80%;
-  height: 80%;
-  background-color: #EC6D6A;
-  animation: appear 350ms ease-in 1;
-  border-style: none;
-}
-
-.modal-container{
-  display: flex;
-  flex-direction: column;
-  color: white;
-}
-
-.modal-icon{
-  justify-content: flex-end;
-  display: flex;
-}
-
 .modal-h1{
   display: flex;
   justify-content: center;
@@ -236,6 +218,7 @@ dialog{
 .modal-maps iframe{
   border-radius: 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+  height: 40vh;
 }
 
 .modal-socials{
@@ -251,6 +234,7 @@ dialog{
 
 .modal-socials i{
   color: white;
+  margin: 1em 0 0 0;
 }
 
 .modal-address span, .modal-phone span{
