@@ -216,7 +216,7 @@ body{
   display: block;
   cursor: default;
   content: '';
-  z-index: 99;
+  
   background: rgba(27,31,35,0.5);
 }
 
@@ -244,49 +244,3 @@ body{
 }
 
 /*--------------------fin modale--------------------------------*/
-.modal-h1{
-  display: flex;
-  justify-content: center;
-  font-size: 16px;
-  font-weight: bold;
-}
-
-.modal-phone span, .modal-address span{
-  font-size: 16px;
-  font-weight: bold;
-}
-
-.modal-phone, .modal-address, .modal-maps, .modal-socials{
-  display: flex;
-  justify-content: center;
-}
-
-.modal-maps iframe{
-  border-radius: 4px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
-  height: 40vh;
-}
-
-.modal-socials{
-  display: flex;
-  justify-content: space-around;
-  font-size: 24px;
-  margin: 10px 0;
-}
-
-.modal-address{
-  margin: 12px 0;
-}
-
-.modal-socials i{
-  color: white;
-  margin: 1em 0 0 0;
-}
-
-.modal-address span, .modal-phone span{
-  margin: 0 12px;
-}
-
-.modal-address a{
-  color: white;
-  text-decoration: none;
