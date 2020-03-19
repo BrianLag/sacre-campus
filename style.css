@@ -5,11 +5,11 @@
   border-radius: 5px;
 }
 .title-principal{
-  color: #DC524F;
+  color: #F76c6c;
   text-align: center;
 }
 .title-par{
-  color: #E97B78;
+  color: #F76c6c;
   font-style: italic;
   text-align: center;
 }
@@ -29,8 +29,30 @@ body{
    
 }
 
+.main-collapse-out{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+   
+}
+
+.collapsible-out{
+  background-color: #F76c6c;
+  color: #FFFFFF;
+  cursor: pointer;
+  padding: 18px;
+  width: 90%;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  margin-top: 45px;
+  text-align: center ;
+  border-radius: 5px; 
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5); 
+}
+
 .collapsible {
-    background-color: #E97B78;
+    background-color: #F99797;
     color: #FFFFFF;
     cursor: pointer;
     padding: 18px;
@@ -46,17 +68,37 @@ body{
   
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
   .active, .collapsible:hover {
-    background-color: #EF5C59;
+    background-color: #F99797;
   }
+
+  .active-out, .collapsible-out:hover {
+    background-color: #f76c6c;
+  }
+
+
   
   /* Style the collapsible content. Note: hidden by default */
+  .content-out {
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    display: none;
+    overflow: hidden;
+    background-color: #f76c6c;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    width: 90%;
+    padding-bottom:  50px;
+  }
+
   .content {
     color: white;
     font-family: sans-serif;
     text-align: center;
     display: none;
     overflow: hidden;
-    background-color: #EF5C59;
+    background-color: #F99797;
     align-items: center;
     text-align: center;
     border-radius: 5px;
@@ -64,12 +106,22 @@ body{
     padding-bottom:  50px;
 /*-------------------FIN COLLAPSE-----------------------------*/
   }
+.sante {
+  width : 70%;
+}
+  
 
-
+ .avertissement{
+   color : black
+ }
+ 
+ .prévention{
+   padding : 30px;
+ }
 
 /*---------------------------Footer------------------------------*/
 .body-footer{
-    background-color: #ec6d6a;
+    background-color: #F76c6c;
     color: white;
     display: flex;
     justify-content: space-around;
@@ -86,7 +138,7 @@ body{
 .footer-unput{
   border-radius: 50px;
   text-align: center;
-  color: #ec6d6a;
+  color: #F76c6c;
   margin-bottom: 1rem;
 }
 
@@ -147,14 +199,14 @@ body{
 
 .bar-title{
     width: auto;
-    color: #E97B78;
+    color: #F76c6c;
     margin: 0px;
     font-size: 16px;
     font-weight: bold;
 
 }
 .barparentese {
-    color: #E97B78;
+    color: #F76c6c;
     margin-left: 10px;
     font-size: 12px;
     
@@ -162,7 +214,7 @@ body{
 /*------------------------debut bar nav-------------------*/
 } 
 .header-menu ul{
-    background-color: #E97B78;
+    background-color: #F76c6c;
     display: flex;
     justify-content: space-around;
     margin: 0px;
