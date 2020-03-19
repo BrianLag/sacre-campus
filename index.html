@@ -34,11 +34,11 @@
     <!--Essai collapse avec modale V1-->
     <section class="flex-collapse">
 
-        <div class="main-collapse" id="Bars" >
-            <button type="button" class="collapsible">
+        <div class="main-collapse-out" id="Bars" >
+            <button type="button" class="collapsible-out">
                 Bars à Proximité
             </button>
-            <div class="content">
+            <div class="content-out">
    
                 
                 
@@ -243,9 +243,9 @@
 
 
         <!-------SECTION Restaurants--------------------------------->
-        <div class="main-collapse"id="Restaurants"> 
-            <button type="button" class="collapsible main-collapse">Restauration à Proximité</button>
-            <div class="content">
+        <div class="main-collapse-out"id="Restaurants"> 
+            <button type="button" class="collapsible-out">Restauration à Proximité</button>
+            <div class="content-out">
 
                 <!---------Collapse Resteaurants 1------------------------------->
                 <div class="main-collapse">
@@ -689,9 +689,9 @@
 
 
         <!--------Section utilitaire-------------------------------->
-        <div class="main-collapse" id="Lieux-Utiles">
-            <button type="button" class="collapsible">Lieux Utiles</button>
-            <div class="content">
+        <div class="main-collapse-out" id="Lieux-Utiles">
+            <button type="button" class="collapsible-out">Lieux Utiles</button>
+            <div class="content-out">
 
                 <!---------Collapse Lieu------------------------------->
                 <div class="main-collapse">
@@ -754,9 +754,9 @@
                 <!------------------------------------------------->
                 <!-----------Section Transports----------------------------->
                 <!--------Collapse menu-------------------------------->
-                <div class="main-collapse" id="Transports" >
-                    <button type="button" class="collapsible">Transports</button>
-                    <div class="content">
+                <div class="main-collapse-out" id="Transports" >
+                    <button type="button" class="collapsible-out">Transports</button>
+                    <div class="content-out">
 
                         <!---------Collapse Lieu- utiles------------------------------>
                         <div class="main-collapse">
@@ -873,9 +873,9 @@
                 </div>
 
                 <!----------COLLAPSE EVENEMENT------------------------------>
-                <div class="main-collapse" id="Evenements" >
-                    <button type="button" class="collapsible">Evénement</button>
-                    <div class="content">
+                <div class="main-collapse-out" id="Evenements" >
+                    <button type="button" class="collapsible-out">Evénement</button>
+                    <div class="content-out">
                         <img src="https://upload.wikimedia.org/wikipedia/fr/thumb/1/1c/Minist%C3%A8re_des_Affaires_Sociales_et_de_la_Sant%C3%A9.svg/1200px-Minist%C3%A8re_des_Affaires_Sociales_et_de_la_Sant%C3%A9.svg.png" alt="logo ministère" class="santé">
                         <h3 class="avertissement">Message Important</h3>
                         <p>Suite à la récente épidémie du COVID-19 et à la décision du gouvernement français d'enclencher un dispositif de confinement, tout événements et rassemblements sont officiellement <bold>ANNULE</bold>.</p>
@@ -891,12 +891,12 @@
 
 
     <script>
-        var coll = document.getElementsByClassName("collapsible");
+        var coll = document.getElementsByClassName("collapsible-out");
         var i;
 
         for (i = 0; i < coll.length; i++) {
             coll[i].addEventListener("click", function () {
-                this.classList.toggle("active");
+                this.classList.toggle("active-out");
                 var content = this.nextElementSibling;
                 if (content.style.display === "block") {
                     content.style.display = "none";
@@ -906,6 +906,23 @@
             });
         }
     </script>
+
+<script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+                content.style.display = "none";
+            } else {
+                content.style.display = "block";
+            }
+        });
+    }
+</script>
     <!---------------Fin Script------------------------->
 
 
