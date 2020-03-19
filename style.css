@@ -208,7 +208,7 @@ body{
     display: flex;
     justify-content: space-around;
     margin: 0px;
-    height: 40px;
+    height:40px;
     box-shadow:0 0 10px 4px #888888;
     padding: .5rem; 
 
@@ -308,3 +308,21 @@ body{
   text-decoration: none;
 }
 /*--------------------fin modale--------------------------------*/
+
+/*-----------------------couleur boites--------------------------*/
+
+.bleu {
+  background-color: #2F80ED;
+}
+.orange {
+  background-color: #F29B4A;
+}
+.vert {
+  background-color: #219653;
+}
+.jaune {
+  background-color: #F2C94C;
+}
+.mauve {
+  background-color: #9B51E0;
+}
