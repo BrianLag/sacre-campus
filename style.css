@@ -106,8 +106,18 @@ body{
     padding-bottom:  50px;
 /*-------------------FIN COLLAPSE-----------------------------*/
   }
+.sante {
+  width : 70%;
+}
+  
 
-
+ .avertissement{
+   color : black
+ }
+ 
+ .prévention{
+   padding : 30px;
+ }
 
 /*---------------------------Footer------------------------------*/
 .body-footer{
