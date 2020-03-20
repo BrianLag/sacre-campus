@@ -67,16 +67,45 @@ body{
   }
   
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-  .active, .collapsible:hover {
-    background-color: #F99797;
+  .active, .bleu .collapsible:hover {
+    background-color: rgb(97, 164, 202);
   }
 
-  .active-out, .collapsible-out:hover {
-    background-color: #f76c6c;
+  .active-out, .bleu .collapsible-out:hover {
+    background-color: rgb(117, 121, 126);
+  }
+  .active, .orange .collapsible:hover {
+    background-color: rgb(255, 197, 91);
   }
 
+  .active-out, .orange .collapsible-out:hover {
+    background-color: rgb(255, 197, 91);
+  }
 
+  .active, .mauve .collapsible:hover {
+    background-color: rgb(204, 165, 241);
+  }
+
+  .active-out, .mauve .collapsible-out:hover {
+    background-color: rgb(204, 165, 241);
+  }
+
+  .active, .jaune .collapsible:hover {
+    background-color: rgb(241, 185, 14);
+  }
+
+  .active-out, .jaune .collapsible-out:hover {
+    background-color: rgb(241, 185, 14);
+  }
   
+  .active, .vert .collapsible:hover {
+    background-color: #219653;
+  }
+
+  .active-out, .vert .collapsible-out:hover {
+    background-color: #219653;
+  }
+
   /* Style the collapsible content. Note: hidden by default */
   .content-out {
     color: white;
@@ -324,5 +353,21 @@ body{
   background-color: #F2C94C;
 }
 .vert {
+  background-color: #219653;
+}
+
+.bleuclair {
+  background-color: rgb(97, 164, 202);
+}
+.orangeclair {
+  background-color: rgb(255, 197, 91);
+}
+.mauveclair {
+  background-color: rgb(204, 165, 241);
+}
+.jauneclair {
+  background-color: rgb(241, 185, 14);
+}
+.vertclair {
   background-color: #219653;
 }
