@@ -343,3 +343,8 @@ button img{
 .vert {
   background-color: #219653;
 }
+
+.collapsible{
+  display: flex;
+  justify-content: center;
+}
