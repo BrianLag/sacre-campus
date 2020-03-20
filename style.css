@@ -116,11 +116,11 @@ button img{
   }
   
   .active, .vert .collapsible:hover {
-    background-color: #219653;
+    background-color: #71dda0;
   }
 
   .active-out, .vert .collapsible-out:hover {
-    background-color: #219653;
+    background-color: #71dda0;
   }
 
   /* Style the collapsible content. Note: hidden by default */
@@ -373,6 +373,21 @@ button img{
   background-color: #219653;
 }
 
+.bleuclair {
+  background-color: rgb(97, 164, 202);
+}
+.orangeclair {
+  background-color: rgb(255, 197, 91);
+}
+.mauveclair {
+  background-color: rgb(204, 165, 241);
+}
+.jauneclair {
+  background-color: rgb(241, 185, 14);
+}
+.vertclair {
+  background-color: #71dda0;
+}
 .collapsible{
   display: flex;
   justify-content: center;
