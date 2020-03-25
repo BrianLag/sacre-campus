@@ -19,6 +19,23 @@ body{
   display: flex;
   flex-direction: column;
 }
+
+button{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button img{
+  display: flex;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.75);
+  border-radius: 50%;
+
+}
+
+.fa-chevron-down{
+  display: flex;
+}
 /*----------------------fin body-----------------------*/
 
 
@@ -67,16 +84,45 @@ body{
   }
   
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-  .active, .collapsible:hover {
-    background-color: #F99797;
+  .active, .bleu .collapsible:hover {
+    background-color: rgb(97, 164, 202);
   }
 
-  .active-out, .collapsible-out:hover {
-    background-color: #f76c6c;
+  .active-out, .bleu .collapsible-out:hover {
+    background-color: rgb(117, 121, 126);
+  }
+  .active, .orange .collapsible:hover {
+    background-color: rgb(255, 197, 91);
   }
 
+  .active-out, .orange .collapsible-out:hover {
+    background-color: rgb(255, 197, 91);
+  }
 
+  .active, .mauve .collapsible:hover {
+    background-color: rgb(204, 165, 241);
+  }
+
+  .active-out, .mauve .collapsible-out:hover {
+    background-color: rgb(204, 165, 241);
+  }
+
+  .active, .jaune .collapsible:hover {
+    background-color: rgb(241, 185, 14);
+  }
+
+  .active-out, .jaune .collapsible-out:hover {
+    background-color: rgb(241, 185, 14);
+  }
   
+  .active, .vert .collapsible:hover {
+    background-color: #71dda0;
+  }
+
+  .active-out, .vert .collapsible-out:hover {
+    background-color: #71dda0;
+  }
+
   /* Style the collapsible content. Note: hidden by default */
   .content-out {
     color: white;
@@ -218,7 +264,7 @@ body{
     display: flex;
     justify-content: space-around;
     margin: 0px;
-    height: 40px;
+    height:40px;
     box-shadow:0 0 10px 4px #888888;
     padding: .5rem; 
 
@@ -318,3 +364,41 @@ body{
   text-decoration: none;
 }
 /*--------------------fin modale--------------------------------*/
+
+/*-----------------------couleur boites--------------------------*/
+
+.bleu {
+  background-color: #2F80ED;
+}
+.orange {
+  background-color: #F29B4A;
+}
+.mauve {
+  background-color: #9B51E0;
+}
+.jaune {
+  background-color: #F2C94C;
+}
+.vert {
+  background-color: #219653;
+}
+
+.bleuclair {
+  background-color: rgb(97, 164, 202);
+}
+.orangeclair {
+  background-color: rgb(255, 197, 91);
+}
+.mauveclair {
+  background-color: rgb(204, 165, 241);
+}
+.jauneclair {
+  background-color: rgb(241, 185, 14);
+}
+.vertclair {
+  background-color: #71dda0;
+}
+.collapsible{
+  display: flex;
+  justify-content: center;
+}
