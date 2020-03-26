@@ -150,8 +150,10 @@ button img{
     border-radius: 5px;
     width: 90%;
     padding-bottom:  50px;
-/*-------------------FIN COLLAPSE-----------------------------*/
+  
   }
+/*-------------------FIN COLLAPSE-----------------------------*/
+  
 .sante {
   width : 70%;
 }
@@ -225,6 +227,7 @@ button img{
 
 
 
+
 /*-----------------Partie_Header-----------------*/
 .header{
   display: flex;
@@ -257,10 +260,10 @@ button img{
     color: #F76c6c;
     margin-left: 10px;
     font-size: 12px;
-    
+}    
 /*-------------------------fin header--------------------*/
 /*------------------------debut bar nav-------------------*/
-} 
+
 .header-menu ul{
     background-color: #F76c6c;
     display: flex;
@@ -276,7 +279,7 @@ button img{
     list-style-type: none;
     align-self: center;
     
-}
+  }
 
 .header-menu {
     position: sticky;
@@ -288,58 +291,6 @@ button img{
     order: -1;
     top: 0;
   }
-  .collapsible {
-    background-color: #F99797;
-    color: #FFFFFF;
-    cursor: pointer;
-    padding: 18px;
-    width: 60%;
-    border: none;
-    outline: none;
-    font-size: 18px;
-    margin-top: 45px;
-    text-align: center ;
-    border-radius: 5px; 
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5); 
-  }
-  .collapsible-out{
-    background-color: #F76c6c;
-    color: #FFFFFF;
-    cursor: pointer;
-    padding: 18px;
-    width: 70%;
-    border: none;
-    outline: none;
-    font-size: 18px;
-    margin-top: 45px;
-    text-align: center ;
-    border-radius: 5px; 
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5); 
-  }
-  .content-out {
-    color: white;
-    font-family: sans-serif;
-    text-align: center;
-    display: none;
-    overflow: hidden;
-    align-items: center;
-    text-align: center;
-    border-radius: 5px;
-    width: 70%;
-    padding-bottom:  50px;
-  }
-
-  .content {
-    color: white;
-    font-family: sans-serif;
-    text-align: center;
-    display: none;
-    overflow: hidden;
-    align-items: center;
-    text-align: center;
-    border-radius: 5px;
-    width: 70%;
-    padding-bottom:  50px;
 }
 /*-----------------------fin bar nav---------------------*/
 
@@ -363,8 +314,8 @@ button img{
   display: block;
 }
 
-@keyframes appear {
-  0%{
+@keyframes appear { 0%{
+  
     opacity: 0;
     transform: translateY(-10px);
   }
@@ -452,7 +403,7 @@ button img{
 .vertclair {
   background-color: #71dda0;
 }
-.collapsible {
+.collapsible  {
   display: flex;
   justify-content: center;
 }
