@@ -148,7 +148,7 @@ button img{
     align-items: center;
     text-align: center;
     border-radius: 5px;
-    width: 90%;
+    width: 80%;
     padding-bottom:  50px;
   
   }
@@ -285,14 +285,74 @@ button img{
     position: sticky;
     bottom: 1rem;
 }
+/*-----------------------fin bar nav---------------------*/
 
+
+/*-----------------------Media Queries---------------------*/
 @media (min-width: 768px) {
   .header-menu {
     order: -1;
     top: 0;
   }
+
+  .collapsible {
+    background-color: #F99797;
+    cursor: pointer;
+    padding: 18px;
+    width: 60%;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    margin-top: 45px;
+    text-align: center ;
+    border-radius: 5px; 
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5); 
+  }
+  .collapsible-out{
+    background-color: #F76c6c;
+    
+    cursor: pointer;
+    padding: 18px;
+    width: 70%;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    margin-top: 45px;
+    text-align: center ;
+    border-radius: 5px; 
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5); 
+  }
+  .content-out {
+    
+    font-family: sans-serif;
+    text-align: center;
+    display: none;
+    overflow: hidden;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    width: 70%;
+    padding-bottom:  50px;
+  }
+
+  .content {
+   
+    font-family: sans-serif;
+    text-align: center;
+    display: none;
+    overflow: hidden;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    width: 60%;
+    padding-bottom:  50px;
 }
-/*-----------------------fin bar nav---------------------*/
+
+  .modal-container {
+    color: black;
+  }
+}
+/*-----------------------fin Media Queries---------------------*/
 
 
 
