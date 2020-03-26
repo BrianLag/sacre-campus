@@ -227,6 +227,7 @@ button img{
 
 
 
+
 /*-----------------Partie_Header-----------------*/
 .header{
   display: flex;
@@ -290,7 +291,7 @@ button img{
     order: -1;
     top: 0;
   }
-  
+}
 /*-----------------------fin bar nav---------------------*/
 
 
