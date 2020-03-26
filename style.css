@@ -295,9 +295,22 @@ button img{
 
 /*-----------------------Media Queries---------------------*/
 @media (min-width: 768px) {
+
   .header-menu {
     order: -1;
     top: 0;
+  }
+
+  .bar-title{
+    font-size: 3rem;
+  }
+
+  .barparentese{
+    font-size: 2rem;
+  }
+
+  .header-logo{
+    width: 10%;
   }
 
   .collapsible {
