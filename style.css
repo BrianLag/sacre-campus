@@ -181,6 +181,7 @@ button img{
 
 .footer-droit{
   text-align: center;
+  font-size: 14px;
 }
 
 .footer-unput{
@@ -207,9 +208,13 @@ button img{
 }
 
 .footer-list{
-  margin: 0;
+  margin: 0px;
   padding-left: 0;
   list-style-type: none;
+}
+
+.footer-sep{
+  margin-bottom: 5px ;
 }
 /*-------------------------------fin footer-----------------------------*/
            
