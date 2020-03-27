@@ -181,7 +181,7 @@ button img{
 
 .footer-droit{
   text-align: center;
-  font-size: 14px;
+  font-size: 1em;
 }
 
 .footer-unput{
@@ -445,6 +445,10 @@ button img{
 .modal-address a{
   color: white;
   text-decoration: none;
+}
+
+.modal-icon{
+  margin-top: 1.2em;
 }
 /*--------------------fin modale--------------------------------*/
 
