@@ -324,7 +324,7 @@ button img{
     margin-top: 45px;
     text-align: center ;
     border-radius: 5px; 
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5); 
+    box-shadow: 0px 22px 44px rgba(0, 0, 0, 0.5); 
   }
   .collapsible-out{
     background-color: #F76c6c;
@@ -484,4 +484,8 @@ button img{
 .collapsible  {
   display: flex;
   justify-content: center;
+}
+
+.anuler-bolt{
+  font-weight: bold;
 }
