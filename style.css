@@ -163,7 +163,7 @@ button img{
    color : black
  }
  
- .prévention{
+ .prevention{
    padding : 30px;
  }
 
@@ -239,7 +239,7 @@ button img{
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  justify-content: baseline;
+  
   order: -2;
   position: relative;
   z-index: 1;
